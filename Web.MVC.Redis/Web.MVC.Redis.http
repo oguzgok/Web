@@ -1,0 +1,6 @@
+@Web.MVC.Redis_HostAddress = http://localhost:5177
+
+GET {{Web.MVC.Redis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
