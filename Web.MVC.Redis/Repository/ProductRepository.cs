@@ -1,6 +1,7 @@
 ﻿
 
 using Microsoft.EntityFrameworkCore;
+using Web.Library.Cache;
 using Web.MVC.Redis.Models;
 
 namespace Web.MVC.Redis.Repository
@@ -8,7 +9,7 @@ namespace Web.MVC.Redis.Repository
     public class ProductRepository : IProductRepository
     {
         private readonly AppDbContext _context;
-
+      
         public ProductRepository(AppDbContext appDbContext)
         {
             _context = appDbContext;

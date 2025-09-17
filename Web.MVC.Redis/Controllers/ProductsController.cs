@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StackExchange.Redis;
+using Web.Library.Cache;
 using Web.MVC.Redis.Models;
 using Web.MVC.Redis.Repository;
 
